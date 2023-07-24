@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.one{
+   display:block;
+   justify-content: space;
+   position: fixed;
+   width : 100%;
+   top: -1px;
+   transition: top 0.3s;
+
+}
+.nav {
+    display:inline-flex;
+    justify-content: space;
+    background-color: rgb(110, 91, 215);
+    align-items: center;
+    width: 100%;
+    height: 90px; 
+}
+.logo h1 {
+    font-family:Arial;
+    margin-left: 210px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white;   
+}
+.list{
+    margin-left: 25px;
+}
+
+.nav_links ul{
+    margin-right: 20px;
+    padding: 2px 15px;
+}
+.nav_links li{
+    display: inline;
+    margin-left: 150px;
+    margin: 15px 10px ;
+}
+.nav_links a{
+    color: rgb(200, 189, 224);
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 10px;
+}
+
+.btn{
+    display:inline-flex;
+    justify-content: space-between;
+}
+.btn button{
+    color: blue;
+    border: 3px;
+    border-radius: 5px solid black;
+    padding : 0px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.btn button:hover{
+    color: beige;
+    background-color: rgb(58, 53, 209);
+}
+.btn h3{
+    color: rgb(236, 240, 243);
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 600px){
+
+}
